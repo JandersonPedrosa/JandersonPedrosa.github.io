@@ -41,5 +41,16 @@ a::before{
     box-shadow: 5px 5px black;
     padding: 18px 20px;
     margin: 0px;
+    transition: transform 100ms cubic-bezier(.45,.97,.68,2.48);
+}
+
+.button:hover{
+    transform: scale(1.08);
+}
+
+h1{
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 40px;
+    color: #10ac84;
 }
 
